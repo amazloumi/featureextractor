@@ -1,5 +1,5 @@
 # featureextractor
-These bash scripts extract some feature including number of updates, number of announces, and number of withdrawals from BGP update log files.
+These bash scripts extract some features including number of updates, number of announces, and number of withdrawals from BGP update log files.
 
 1. Download bgp update file from routeviews.org (http://archive.routeviews.org/bgpdata/)
 2. Convert the bgp update file to bgpdump format or print the whole messages using mrt2bgpdump.py and print_all.py respectively. these two files are parts of mrtparse project found in (https://github.com/YoshiyukiYamauchi/mrtparse.git)
